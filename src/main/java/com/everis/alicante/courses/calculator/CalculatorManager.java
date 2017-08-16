@@ -29,8 +29,7 @@ public class CalculatorManager {
                     result = new DivideOperation();
                     break;
                 default:
-                    result = null;
-                    break;
+                    throw new RuntimeException();
             }
         } else {
             result = null;
